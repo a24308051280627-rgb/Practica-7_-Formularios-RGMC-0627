@@ -1,0 +1,30 @@
+<!DOCTYPE html><!--indica que el docuemto es HTML5-->
+<html lang="en"><!--Especifica que el idioma principal del documento esta en ingles-->
+<head><!--encabezado-->
+
+<meta charset="UTF-8"><!--asegura que se muestren bien algunos caracteres como los acentos-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--se adapta al tipo de pantalla de cualquier dispositivo-->
+<title>Formularios en HTML</title><!--titulo que aparece en la pestaña del navegador-->
+<!-- Libreria de iconos en linea -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/7.3.1/css/all.min.css">!--carga como una biblioteca para iconos o para el estilo de la pagina-->
+
+</head>
+<body><!--cuerpo-->
+  <h2>Formulario con text area</h2><!--titulo de formulario-->
+  <form action="" method="post"><!--abre la etiqueta del formulario-->
+     Ingresa tu nombre::<!--es una indicacion-->
+     <input type="text" name="nombre"><!--crea una caja de texto-->
+     <br><!--salto de linea-->
+     Ingresa tu correo:<!--es una indicacion-->
+     <input type="email" name="correo"><!--crea una caja de texto de correo electronico-->
+     <br><!--salto de linea-->
+     Ingresa tus comentarios::<!--es una indicacion-->
+     <textarea name="comentarios" rows="1" cols="10"></textarea><!--crea una caja de texto multilinea-->
+     <br><!--salto de linea-->
+     <input type="submit" value="enviar"><!--crea un boton para enviar-->
+     <input type="reset" value="borrar"><!--crea un boton para borrar-->
+  </form><!--cierra el formulario-->
+</body><!--cierra el documento-->
+</html><!--fin del documento-->

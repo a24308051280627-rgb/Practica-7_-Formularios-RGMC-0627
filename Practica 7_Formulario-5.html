@@ -1,0 +1,30 @@
+<!DOCTYPE html><!--indica que el docuemto es HTML5-->
+<html lang="en"><!--Especifica que el idioma principal del documento esta en ingles-->
+<head><!--encabezado-->
+
+<meta charset="UTF-8"><!--asegura que se muestren bien algunos caracteres como los acentos-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--se adapta al tipo de pantalla de cualquier dispositivo-->
+<title>Formularios en HTML</title><!--titulo que aparece en la pestaña del navegador-->
+<!-- Libreria de iconos en linea -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/7.3.1/css/all.min.css">!--carga como una biblioteca para iconos o para el estilo de la pagina-->
+
+</head>
+<body><!--cuerpo-->
+  <h2>Formularios con Radioboton</h2><!--titulo de formulario-->
+  <form action="" method="post"><!--abre la etiqueta del formulario-->
+    Ingresa tu nombre:<!--es una indicacion-->
+    <input type="text" name="nombre"><!--crea una caja de texto-->
+    <br><!--salto de linea-->
+    Selecciona el maximo de estudios que tienes:<!--es una indicacion-->
+    <br><!--salto de linea-->
+    <input type="radio" name="estudios" value="1">Sin estudios <br><!--crea la primera opcion, solo se puede elegir uno-->
+    <input type="radio" name="estudios" value="2">Primaria <br><!--crea la segunda opcion-->
+    <input type="radio" name="estudios" value="3">Secundaria <br><!--crea la tercera opcion-->
+    <input type="radio" name="estudios" value="4">Preparatoria <br><!--crea la cuarta opcion-->
+    <input type="submit" value="enviar"><!--crea un boton para enviar-->
+    <input type="reset" value="borrar"><!--crea un boton para borrar-->
+  </form><!--cierra el formulario-->
+</body><!--cierra el documento-->
+</html><!--fin del documento-->
