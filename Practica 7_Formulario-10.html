@@ -1,0 +1,40 @@
+<!DOCTYPE html><!--indica que el docuemto es HTML5-->
+<html lang="en"><!--Especifica que el idioma principal del documento esta en ingles-->
+<head><!--encabezado-->
+
+<meta charset="UTF-8"><!--asegura que se muestren bien algunos caracteres como los acentos-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--se adapta al tipo de pantalla de cualquier dispositivo-->
+<title>Formularios en HTML</title><!--titulo que aparece en la pestaña del navegador-->
+<!-- Libreria de iconos en linea -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/7.3.1/css/all.min.css">!--carga como una biblioteca para iconos o para el estilo de la pagina-->
+
+</head>
+<body><!--cuerpo-->
+  <h2>Formularios con agrupamiento</h2><!--titulo de formulario-->
+  <form action="" method="post"><!--abre estructura del fromulario-->
+    <fieldset><!--crea un contenedor enmarcado-->
+      <legend>Datos personales</legend><!--define el titulo del grupo-->
+      Nombre y apellido:<!--es una indicacion-->
+      <input type="text" name="nombre_apellido"><br><!--crea una caja de texto-->
+      Documento valido:<!--es una indicacion-->
+      <input type="file" name="documento"><br><!--crea una caja de texto-->
+      Fecha de nacimiento:<!--es una indicacion-->
+
+      <input type="date" name="fecha_nacimiento">
+    </fieldset><!--cierra el contenedor-->
+    <fieldset><!--crea un contenedor enmarcado-->
+      <legend>Datos de estudio:</legend><!--define el titulo del grupo-->
+      Nombre de la escuela:<!--es una indicacion-->
+      <input type="text" name="escuela"><br><!--crea una caja de texto-->
+      Certificado valido:<!--es una indicacion-->
+      <input type="file" name="certificado"><br><!--crea una caja de texto-->
+      Fecha de egreso:<!--es una indicacion-->
+      <input type="date" name="fecha_egreso"><!--crea una caja de texto-->
+    </fieldset><!--cierra el contenedor-->
+    <br><!--salto de linea-->
+    <button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button><!--boton personalizado para enviar-->
+    <button type="reset">Borrar <i class="fa fa-trash"></i></button><!--boton personalizado para borrar-->
+
+</form>

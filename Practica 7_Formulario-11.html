@@ -1,0 +1,30 @@
+<!DOCTYPE html><!--indica que el docuemto es HTML5-->
+<html lang="en"><!--Especifica que el idioma principal del documento esta en ingles-->
+<head><!--encabezado-->
+
+<meta charset="UTF-8"><!--asegura que se muestren bien algunos caracteres como los acentos-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--se adapta al tipo de pantalla de cualquier dispositivo-->
+<title>Formularios en HTML</title><!--titulo que aparece en la pestaña del navegador-->
+<!-- Libreria de iconos en linea -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/7.3.1/css/all.min.css">!--carga como una biblioteca para iconos o para el estilo de la pagina-->
+
+</head>
+<body><!--cuerpo-->
+  <h2>Formulario con limitaciones</h2><!--titulo de formulario-->
+  <form action="" method="post"><!--abre estructura del fromulario-->
+    Ingresa tu nombre:<!--es una indicacion-->
+    <!-- Desahbilitacion de campo -->
+    <input type="text" name="nombre" disabled><br><!--campo de entrada de texto deshabilitado-->
+    <!-- Limitacion de caracteres -->
+    Contraseña:
+    <input type="password" name="pass" maxlength="5"><br><!--campo de contraseña restringido por longitud-->
+    <!-- Solo lectura -->
+    Comentarios:
+    <textarea name="comentarios" readonly><--solo se puede ver y es un comentario-->
+      Este es mi comentario y no se puede borrar
+    </textarea><br>
+  </form><!--cierra el formulario-->
+</body><!--cierra el documento-->
+</html><!--fin del documento-->
